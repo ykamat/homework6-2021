@@ -15,8 +15,8 @@ header{
   /*Your  code here again.*/
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 /*Requirement 3*/
@@ -25,7 +25,7 @@ header{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  flex-wrap: wrap;
 }
 
 
@@ -69,6 +69,7 @@ header{
   /*Your code here again.*/
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
 }
 
 /*Requirement 8*/
@@ -108,20 +109,19 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
   }
 
   /*Requirement 10*/
   .nav_links{
     /*Your code here again.*/
-    display: flex;
     flex-direction: row;
   }
 
   /*Requirement 11*/
   .package {
     /*Your code here again.*/
-    display: flex;
-    flex-flow: column nowrap;
+    flex-flow: row nowrap;
     flex-basis: 230px;
   } 
 }
